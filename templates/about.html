@@ -1,4 +1,61 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>About Page</h1>
+    
+    {% for number in list_of_numbers %}
+        <p>{{ number }}</p>
+    {% endfor %}
+
+    <h2>{{ page_title }}</h2>
+    <p>
+        The Peaky Blinders is a renowned British crime drama television series that first premiered in 2013. Set in
+        post-World War I Birmingham, England, the show revolves around the Shelby family, led by the charismatic and
+        cunning Thomas Shelby, played by Cillian Murphy. The Shelby family, known as the Peaky Blinders, are notorious
+        for their illegal activities, including bookmaking, smuggling, and street fighting. With their signature flat
+        caps and razor blades sewn into their peaked caps, the Peaky Blinders have become synonymous with their daring
+        and dangerous reputation. The show is known for its gripping plotlines, complex characters, and dark and gritty
+        atmosphere, as well as its stylish period setting and iconic fashion. As the Shelby family navigates the
+        treacherous criminal underworld, they face rival gangs, political intrigue, and personal challenges, making for
+        a compelling and addictive viewing experience that has captivated audiences worldwide.
+    </p>
+
+    {% for member in company %}
+
+        {% if loop.index % 2 != 0 %}
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h3><a href="/about/{{ member.url }}">{{ member.name }}</a></h3>
+                    <p>{{ member.description }}</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="about-img-container">
+                        <img src="{{ url_for('static', filename=member.image_source) }}" alt="{{ member.name }} Image" class="featurette-image image-responsive">
+                    </div>
+                </div>
+            </div>
+
+            {% else %}
+
+                <div class="row featurette">
+                    <div class="col-md-5">
+                        <div class="about-img-container">
+                            <img src="{{ url_for('static', filename=member.image_source) }}" alt="{{ member.name }} Image" class="featurette-image image-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3><a href="/about/{{ member.url }}">{{ member.name }}</a></h3>
+                        <p>{{ member.description }}</p>
+                    </div>
+                </div>
+
+        {% endif %}
+        
+        {% if loop.index != loop.length %}
+
+            <hr class="featurette-divider">
+        
+        {% endif %}
+
+    {% endfor %}
+
 {% endblock %}

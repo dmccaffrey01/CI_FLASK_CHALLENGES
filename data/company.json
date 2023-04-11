@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tommy Shelby",
+        "description": "Tommy Shelby is the enigmatic and multifaceted protagonist of the hit TV series Peaky Blinders. Portrayed by the talented Cillian Murphy, Tommy is the cunning and calculating leader of the Shelby family, known for his steely resolve and sharp intellect. Tommy is a war veteran who served in World War I, and the trauma and brutality of the war have left their mark on him, shaping his complex personality. He is a strategic mastermind, always several steps ahead of his adversaries, and is willing to do whatever it takes to protect his family and maintain his power in the criminal underworld of Birmingham. Despite his tough exterior, Tommy also struggles with inner demons and emotional vulnerabilities, including PTSD and a troubled past. His charisma and charm often mask his inner turmoil, creating a compelling and layered character. Tommy's unwavering loyalty to his family and his relentless pursuit of power make him a captivating anti-hero, as he navigates the treacherous world of crime, politics, and personal struggles with his signature intensity and resourcefulness.",
+        "image_source": "img/tommy-shelby.jpg",
+        "url": "tommy"
+    },
+    {
+        "name": "John Shelby",
+        "description": "John Shelby is a prominent character in the popular TV series Peaky Blinders, portrayed by Joe Cole. As the second eldest of the Shelby siblings, John is a key member of the Shelby family's criminal enterprise in Birmingham. Known for his impulsive nature and hot-headed temperament, John often acts on his instincts and has a penchant for violence, making him a formidable force in the underworld. Despite his rough exterior, John also possesses a softer side, showing unwavering loyalty to his family and displaying a protective nature towards those he cares about. He struggles with his own demons, including past trauma and addiction, which add depth and complexity to his character. John's rugged charm and fierce determination make him a compelling figure, as he grapples with the challenges of his tumultuous lifestyle, balancing his loyalty to his family with his own personal struggles. His character arc is filled with ups and downs, creating a dynamic and intriguing presence within the Shelby family and the world of Peaky Blinders.",
+        "image_source": "img/john-shelby.png",
+        "url": "john"
+    },
+    {
+        "name": "Arthur Shelby",
+        "description": "Arthur Shelby is a central character in the acclaimed TV series Peaky Blinders, portrayed by Paul Anderson. As the eldest Shelby sibling, Arthur is the muscle of the Shelby family's criminal operations, known for his brute strength and fearless demeanor. He is a complex character, grappling with his own inner demons, including his struggles with addiction and mental health issues. Despite his tough exterior, Arthur has a deep loyalty to his family and a desire to protect them at all costs. He is often torn between his violent tendencies and his desire to find redemption and overcome his personal challenges. Arthur's character is known for his unpredictability, ranging from moments of extreme rage to acts of deep vulnerability, which adds depth and complexity to his portrayal. His internal conflicts and external struggles create a compelling narrative arc, as he grapples with his past mistakes and strives to find his place within the Shelby family and the dangerous world of Peaky Blinders.",
+        "image_source": "img/arthur-shelby.jpg",
+        "url": "arthur"
+    }
+]
